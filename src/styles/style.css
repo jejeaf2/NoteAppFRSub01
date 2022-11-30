@@ -1,0 +1,160 @@
+* {
+  /* padding: 0;
+  margin: 0;
+  box-sizing: border-box; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #06283D;
+  color: whitesmoke;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color:  white;
+}
+h1 {
+  align-content: center;
+  text-align: left;
+}
+img {
+  width: 100%;
+}
+
+.note-app {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note-app__header {
+  display: flex;
+  align-items: center;
+  padding: 5px 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.note-app__header h1 {
+  font-weight: normal;
+  font-size: 32px;
+  flex: 1;
+  margin: 6px 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  padding: 16px;
+}
+
+.navigation ul li a {
+  font-size: 28px;
+  color: whitesmoke;
+}
+
+.note-item2 {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid white;
+  border-top: 5px solid;
+}
+
+
+
+.note-list .note-item {
+  display: grid;
+  padding: 5rem;
+  background-color: whitesmoke;
+}
+
+.note-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(min-content, max-content);
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.note-item__body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px dashed white;
+  border-radius: 1rem;
+}
+
+
+.note-item__title {
+  padding: 4px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 4px;
+}
+
+.note-item__username {
+  font-weight: lighter;
+}
+
+.note-item__delete {
+  padding: 8px;
+  font-size: 28px;
+  color: red;
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note-input {
+  border: 2px dashed whitesmoke;
+  padding: 16px;
+  margin: 14px 0;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.note-input input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  font-family: 'Quicksand', sans-serif;
+}
+.note-input__title {
+  border: 2px solid whitesmoke;
+  outline-color: whitesmoke;}
+
+.note-input__body {
+  border: 2px solid whitesmoke;
+  outline-color: whitesmoke;
+}
+
+
+.note-input__button {
+  width: 100%;
+  border: 2px solid whitesmoke;
+  padding: 8px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.search-bar {
+  display: block;
+  width: 100%;
+  margin: 16px 0;
+  padding: 12px;
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  border: 2px dashed whitesmoke;
+  border-radius: 4px;
+}
+
+.daftar-catatan {
+  margin: 2rem 0 2rem 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
